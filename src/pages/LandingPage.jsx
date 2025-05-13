@@ -16,13 +16,13 @@ function LandingPage() {
         
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
           <Link to="/login" className="w-full sm:w-auto">
-            <button className="w-full sm:w-64 py-3 px-6 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
+            <button className="w-full sm:w-64 py-3 px-6 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transform hover:scale-105 transition-all ">
               Login
             </button>
           </Link>
           
           <Link to="/register" className="w-full sm:w-auto">
-            <button className="w-full sm:w-64 py-3 px-6 bg-teal-500 text-white rounded-lg shadow-md hover:bg-teal-600 transform hover:scale-105 transition-all duration-300">
+            <button className="w-full sm:w-64 py-3 px-6 bg-teal-500 text-white rounded-lg shadow-md hover:bg-teal-600 transform hover:scale-105 transition-all ">
               Register
             </button>
           </Link>
